@@ -1,0 +1,7 @@
+services:
+  nusafurnitur:
+    build: .
+    container_name: nusafurnitur
+    restart: unless-stopped
+    ports:
+      - "3000:80"
